@@ -64,7 +64,7 @@ if (process.env.NODE_ENV === 'development') {
       new UglifyJSPlugin({
         uglifyOptions: {
           compress: {
-            warnings: false
+            // warnings: false
           }
         },
         sourceMap: true,
